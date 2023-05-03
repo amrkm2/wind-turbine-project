@@ -27,7 +27,7 @@ model = load_model()
 # Page header
 st.title("Wind Turbine Power Prediction")
 st.write(f"Made by Amir Hakim, visit my [data portfolio](https://amrhkm.com/) to view my other projects")
-st.write(f"View the [data wrangling and EDA process](https://amrhkm.com/)")
+st.write(f"View the [data wrangling and EDA process](https://nbviewer.org/github/amrhkm/wind-turbine-power-prediction/blob/master/wrangling-eda.ipynb)")
 st.header(f"Columns of the [original data](https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset)")
 st.write("""
 - Date/Time : readings for 10 minutes intervals
